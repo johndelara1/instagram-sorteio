@@ -24,7 +24,7 @@ class Imdb:
             user = ff.find_element_by_css_selector('#email')
             user.send_keys('user')
             password = ff.find_element_by_css_selector('#pass')
-            password.send_keys('senha')
+            password.send_keys('password')
             login = ff.find_element_by_css_selector("#loginbutton")
             login.click()
             sleep(1)
